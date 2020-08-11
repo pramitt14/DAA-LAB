@@ -63,6 +63,7 @@ void main()
     s2=clock();
 
     //for worst case -- sorting a reversed array
+    
     rev(a, n);//reverse
 
     s3=clock();
@@ -72,7 +73,7 @@ void main()
     time = ((double)(e-s));//Average
     time1=((double)(s2-s1));//Best
     time2=((double)(s4-s3));//Worst
-    printf("Best Case:%li\n",(long int)time1);
-    printf("Average Case : %li\n",(long int)time);
-    printf("Worst case:%li\n",(long int)time2);
+    printf("Best Case :  %li\n",(long int)time1);
+    printf("Average Case :  %li\n",(long int)time);
+    printf("Worst case :  %li\n",(long int)time2);
 }
